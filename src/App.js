@@ -1,13 +1,14 @@
 import React from 'react';
 import Hii from './Component/Hii';
 import Hello from './Component/Hello';
-import CricketerProvider from './context/CricketerProvider';
+// import CricketerProvider from './context/CricketerProvider';
 
 
 function App() {
   return (
     <div className="App">
       <Hii/>
+      <Hello />
 
       {/* <CricketerProvider>
         <Hii/>
